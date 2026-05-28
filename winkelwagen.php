@@ -24,6 +24,7 @@ if (isset($_GET['leeg'])) {
     </nav>
 
     <h1>Winkelwagen</h1>
+    h3>Hier zie je de producten die je aan je winkelmand hebt toegevoegd.</h3>
 
     <?php
     if (empty($_SESSION['winkelwagen'])) {
